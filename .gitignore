@@ -1,0 +1,10 @@
+# Maya-specific ignore rules
+# --------------------------
+workspace.mel         # Local workspace configuration
+*.swatches            # Material swatch previews
+*.mayaSwatches        # Preview files
+incrementalSave/      # Maya incremental autosaves
+autosave/             # Local autosave folder
+renderData/           # Temporary render data/cache
+cache/                # Simulation and geometry caches (nCache, Alembic temp)
+*.log                 # Maya log files
